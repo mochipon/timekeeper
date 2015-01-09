@@ -1,0 +1,45 @@
+html,body{
+	height:100%;
+	overflow: hidden;
+}
+
+body{
+	background: black;
+}
+
+.container-fluid{
+	height:100%;
+}
+
+#display{
+	float: none;
+	margin: auto;
+	color: white;
+	width:100%;
+	text-align: center;
+}
+
+#time{
+	font-style: monospace;
+	font-weight: bold;
+	color: white;
+	width:100%;
+	position: absolute;
+	text-align: center;
+}
+
+#state{
+	font-weight: bold;
+	color: orange;
+	width:100%;
+	position: absolute;
+	text-align: center;
+}
+
+#info{
+	font-weight: bold;
+	color: white;
+	width:100%;
+	position: absolute;
+	text-align: center;
+}
