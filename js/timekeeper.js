@@ -89,14 +89,17 @@
 					var time3 = new Date(start_time.getTime()+((new Date('2011/1/1 00:'+$('#time3').val()))-(new Date('2011/1/1 00:00:00'))));
 					
 					if((last_time < time1 && time1 <= cur_time) || (last_time==time1 && cur_time==time1)){
+						$('#info').html("残り７光年！");
 						audio_chime1.play();
 					}
 
 					if((last_time < time2 && time2 <= cur_time) || (last_time==time2 && cur_time==time2)){
+						$('#info').html("残り５光年！");
 						audio_chime2.play();
 					}
 					
 					if((last_time < time3 && time3 <= cur_time) || (last_time==time3 && cur_time==time3)){
+						$('#info').html("ブラックホールに突入！<br>残り時間不明");
 						audio_chime3.play();
 					}
 
